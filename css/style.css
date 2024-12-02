@@ -12,7 +12,15 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: #0000ff;
+    /*background: #0000ff;*/
+}
+
+header nav a{
+    border: solid 0px black;
+    padding: 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    display: flex;
 }
 
 h1{
@@ -25,21 +33,22 @@ h2{
 
 ul{
     display: flex;
+    align-content: center;
 }
 
 .bordure-rouge {
-    border: solid 1px red;
+    border: solid 0px red;
 }
 
 @media screen and (min-width: 576px){
     header {
         flex-direction: row;
-        background: yellow;
+        /*background: yellow;*/
     }
 }
 @media screen and (min-width: 992px){
     header {
-        background: red;
+        /*background: red;*/
     }
     body{
         font-size: 16px;
